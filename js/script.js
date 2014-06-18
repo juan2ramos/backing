@@ -1,6 +1,10 @@
 $(function () {
     /* SLIDER */
-    var $panel = $('.panel')
+    var $panel = $('.panel');
+    var $sound = $('#sound');
+
+
+
     $close = $('.close');
     if ($('.slider').length > 0) {
         $('.slider').flexslider({
@@ -18,12 +22,16 @@ $(function () {
             itemMargin: 4
         });
     }
+
     $panel.hover(function () {
         $(this).addClass('flip');
     }, function () {
         $(this).removeClass('flip');
     });
+    $sound.on('click',function(){
 
+        $('#mySound').pause();
+    });
     $panel.on('click', function () {
         var panel = $(this).data('panel');
         $('#' + panel).addClass('show');

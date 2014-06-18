@@ -343,6 +343,39 @@ Client
 }
 
 /*=================================================================
+Sound
+===================================================================*/
+#sound{
+    background: #005ABC;
+    cursor: pointer;
+    height: 25px;
+    left: -9px;
+    padding: 5px 0 1px 5px;
+    position: fixed;
+    transform: rotate(-90deg);
+    top:100px;
+    width: 40px;
+}
+.body-speaker{
+    background: #fff;
+    border-radius: 2px 0 0 2px;
+    display: inline-block;
+    height: 10px;
+    vertical-align: top;
+    width: 5px;
+    margin-top: 6px
+}
+.speaker{
+    border-bottom: 8px solid rgb(250, 246, 246);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+    height: 0;
+    margin-left: -7px  ;
+    -webkit-transform: rotate(270deg);
+    width: 10px;
+}
+/*=================================================================
 state
 ===================================================================*/
 .show {
