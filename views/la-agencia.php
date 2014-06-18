@@ -3,30 +3,30 @@
         <li>
             <div class="panel" data-panel="panel1">
                 <div class="front">
-                    <img src="images/arquitecturaefimera01.jpg"/>
+                    <img src="images/arquitecturaefimera02.jpg"/>
                 </div>
                 <div class="back">
-                    <img src="images/arquitecturaefimera02.jpg">
+                    <img src="images/arquitecturaefimera01.jpg">
                 </div>
             </div>
         </li>
         <li>
             <div class="panel" data-panel="panel2">
                 <div class="front">
-                    <img src="images/eventosmarca01.jpg"/>
+                    <img src="images/eventosmarca02.jpg"/>
                 </div>
                 <div class="back">
-                    <img src="images/eventosmarca02.jpg">
+                    <img src="images/eventosmarca01.jpg">
                 </div>
             </div>
         </li>
         <li>
             <div class="panel"  data-panel="panel3">
                 <div class="front">
-                    <img src="images/publicidadBTL01.jpg"/>
+                    <img src="images/publicidadBTL02.jpg"/>
                 </div>
                 <div class="back">
-                    <img src="images/publicidadBTL02.jpg">
+                    <img src="images/publicidadBTL01.jpg">
                 </div>
             </div>
         </li>
