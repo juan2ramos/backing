@@ -67,6 +67,10 @@
     ®Backing - Todos los derechos Reservados - 2014 - Diseño Web:
 </footer>
 <div id="sound">
+
+    <div class="waves"></div>
+    <div class="waves w2" ></div>
+    <div class="waves w3"></div>
     <div class="body-speaker"></div>
     <div class="speaker"></div>
     <audio id='mySound' src="https://trello-attachments.s3.amazonaws.com/539f54af192436e884b674e6/53a1a65c35807d17206a448c/8259851d98c33dd44493cdfdf7b80495/Dmitry_Ashin__Friendship__(1).mp3" autoplay loop>

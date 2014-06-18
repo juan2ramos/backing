@@ -30,7 +30,15 @@ $(function () {
     });
     $sound.on('click',function(){
 
-        $('#mySound').pause();
+        var song = $('#mySound').get(0);
+        if (song.paused) {
+            song.play();
+            $('.waves').removeClass("hidden");
+        }
+        else {
+            song.pause();
+            $('.waves').addClass("hidden");
+        }
     });
     $panel.on('click', function () {
         var panel = $(this).data('panel');
