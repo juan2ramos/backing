@@ -14,7 +14,7 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="author" content="juan2ramos"/>
-    <meta name="contact" content="juan2ramos@gmail.com"/>
+    <meta name="contact" content="juan2ramos@mi-martinez.com"/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1"/>
     <!-- Meta Facebook -->
@@ -47,15 +47,15 @@
 
     <ul id="nav">
         <li><a href="la-agencia" class="<?php if ($url == 'la-agencia'): echo('active'); endif ?>">La agencia</a></li>
-        <li><a href="nuestro-trabajo" class="<?php if ($url == 'nuestro-trabajo'): echo('active'); endif ?>"">Nuestro
+        <li><a href="nuestro-trabajo" class="<?php if ($url == 'nuestro-trabajo'): echo('active'); endif ?>">Nuestro
             Trabajo</a></li>
         <li><a href="clientes" class="<?php if ($url == 'clientes'): echo('active'); endif ?>">Clientes</a></li>
         <li><a href="galeria" class="<?php if ($url == 'galeria'): echo('active'); endif ?>">Galería</a></li>
         <li><a href="contacto" class="<?php if ($url == 'contacto'): echo('active'); endif ?>">Contacto</a></li>
     </ul>
     <ul id="network">
-        <li><a href="https://www.facebook.com/Circulart"><span class="icon-facebook"></span></a></li>
-        <li><a href="https://twitter.com/Circulart_" class="twitter"><span class="icon-twitter"></span></a></li>
+        <li><a href="https://www.facebook.com/pages/Backing-SAS/18522336494"><span class="icon-facebook"></span></a></li>
+        <li><a href="https://twitter.com/BACKINGPRODUCTI" class="twitter"><span class="icon-twitter"></span></a></li>
     </ul>
 </nav>
 
