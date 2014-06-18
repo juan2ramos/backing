@@ -349,11 +349,10 @@ Sound
     background: #005ABC;
     cursor: pointer;
     height: 25px;
-    left: -9px;
+    right: 15px;
     padding: 5px 0 1px 5px;
     position: fixed;
-    transform: rotate(-90deg);
-    top:100px;
+    top:15px;
     width: 40px;
 }
 .body-speaker{
