@@ -74,6 +74,12 @@ section {
     padding-left: 20px;
     width: 100%;
 }
+#wrap{
+    min-height: 100%;
+}
+html,body{
+    height:100%;
+}
 
 /*=================================================================
 header
@@ -110,7 +116,6 @@ nav li a:hover {
     color: #fff;
 
 }
-
 
 nav li {
     display: inline-block;
@@ -165,6 +170,7 @@ footer a {
     color: #fff;
     text-transform: uppercase;
 }
+
 /*=================================================================
 La agencia
 ===================================================================*/
@@ -175,11 +181,11 @@ La agencia
     padding: 0;
 }
 
-#la-agencia li{
+#la-agencia li {
     box-sizing: border-box;
     display: inline-block;
     margin: 30px 7px 0 0;
-    width: 320px ;
+    width: 320px;
 }
 
 .panel {
@@ -189,7 +195,6 @@ La agencia
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
 }
-
 
 .panel .front {
     position: absolute;
@@ -213,21 +218,24 @@ La agencia
     backface-visibility: hidden;
     transition: all .4s ease-in-out;
 }
+
 .panel.flip .front {
     z-index: 900;
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
 }
+
 .panel.flip .back {
     z-index: 1000;
     -webkit-transform: rotateX(0deg) rotateY(0deg);
     -moz-transform: rotateX(0deg) rotateY(0deg);
 }
+
 /*=================================================================
 pop up
 ===================================================================*/
-.back-pop-up{
-    background: rgba(255,255,255,0.9);;
+.back-pop-up {
+    background: rgba(255, 255, 255, 0.9);;
     bottom: 100%;
     height: 100%;
     left: 0;
@@ -237,13 +245,15 @@ pop up
     transition: all .2s ease;
     z-index: 1000;
 }
-.close{
+
+.close {
     cursor: pointer;
     position: absolute;
     right: -50px;
     top: -50px;
 }
-.content-pop-up{
+
+.content-pop-up {
     margin: -155px -495px;
     height: 310px;
     left: 50%;
@@ -251,12 +261,13 @@ pop up
     top: 50%;
     width: 990px;
 }
-.content-slider{
+
+.content-slider {
     width: 578px;
     display: inline-block;
 }
 
-.text-slider{
+.text-slider {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     display: inline-block;
@@ -264,33 +275,76 @@ pop up
     vertical-align: top;
     width: 400px;
 }
-.text-slider h2{
+
+.text-slider h2 {
     font-size: 1.9em;
     line-height: 1.35em;
-    margin-top:-5px ;
+    margin-top: -5px;
 
 }
 
 /*=================================================================
 Client
 ===================================================================*/
-#clients{
-    margin: 0 auto;
+#clients {
+    margin: 10px auto 30px;
     width: 990px;
 }
-.title-clients,.slide-client{
+
+.title-clients, .slide-client {
     display: inline-block;
     vertical-align: middle;
 }
-.slide-client{
+
+.slide-client {
     width: 900px;
+    position: relative;
 }
-.flex-direction-nav{
+
+.flex-direction-nav {
     display: none;
 }
+
+.flex-control-paging {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    margin-left:-50px;
+    top: 120%
+}
+
+.flex-viewport {
+    width: 900px;
+}
+
+.slider-client .slides li {
+    text-align: center;
+    height: 150px;
+
+}
+.flex-control-paging li{
+    display: inline-block;
+    margin: 0 5px;
+    zoom: 1;
+}
+.flex-control-paging li a{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #005ABC;
+    cursor: pointer;
+    text-indent: -9999px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active{
+    background: #000;
+}
+
 /*=================================================================
 state
 ===================================================================*/
-.show{
+.show {
     top: 0;
 }

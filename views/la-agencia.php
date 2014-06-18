@@ -46,7 +46,12 @@
                 <li><img src="images/roche.png" alt=""/></li>
                 <li><img src="images/lilly.png" alt=""/></li>
                 <li><img src="images/novartis.png" alt=""/></li>
-                <li><img src="images/la%20roche.png" alt=""/></li>
+                <li><img src="images/roche.png" alt=""/></li>
+                <li><img src="images/abbott-nutrition.png" alt=""/></li>
+                <li><img src="images/zambon.png" alt=""/></li>
+                <li><img src="images/janssen.png" alt=""/></li>
+                <li><img src="images/ferragamo.png" alt=""/></li>
+                <li><img src="images/astrazeneca.png" alt=""/></li>
             </ul>
         </div>
     </div>
@@ -149,3 +154,4 @@
             </div>
         </div>
     </div>
+</div>

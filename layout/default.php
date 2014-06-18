@@ -39,6 +39,7 @@
 
 </head>
 <body>
+<div id="wrap">
 <header>
 
     <figure><img src="images/logo.png" alt="logo-backing"/></figure>
@@ -61,7 +62,7 @@
 
 
 <?php include $fileName; ?>
-
+</div>
 <footer>
     ®Backing - Todos los derechos Reservados - 2014 - Diseño Web:
 </footer>
