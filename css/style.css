@@ -93,7 +93,7 @@ nav {
     height: 25px;
     position: relative;
     text-align: center;
-    width: 990px;
+    width: 920px;
 }
 
 nav a {
@@ -101,7 +101,7 @@ nav a {
     display: block;
     font-size: 1.22em;
     font-weight: lighter;
-    padding: 10px 44px;
+    padding: 10px 40px;
     box-sizing: border-box;
 }
 
@@ -170,24 +170,112 @@ La agencia
 ===================================================================*/
 #la-agencia {
     margin: 0 auto;
-    padding: 0;
+    position: relative;
     width: 990px;
+    padding: 0;
 }
-#la-agencia img{
-    max-width: 245px;
-}
+
 #la-agencia li{
+    box-sizing: border-box;
     display: inline-block;
-    transition: all .4s ease-in-out;
-    padding: 0 10px;
-    width: 245px;
+    margin: 30px 7px 0 0;
+    width: 320px ;
+}
+
+.panel {
+    cursor: pointer;
+    height: 440px;
+    position: relative;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+}
+
+
+.panel .front {
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    text-align: center;
     transform: rotateX(0deg) rotateY(0deg);
     transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: all .4s ease-in-out;
 }
-#la-agencia ul{
-    margin: 50px 0 ;
+
+.panel .back {
+    height: inherit;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: all .4s ease-in-out;
 }
-#la-agencia li.flip {
+.panel.flip .front {
     z-index: 900;
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+.panel.flip .back {
+    z-index: 1000;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
+/*=================================================================
+pop up
+===================================================================*/
+.back-pop-up{
+    background: rgba(255,255,255,0.9);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    right: -50px;
+    top: -50px;
+}
+.content-pop-up{
+    margin: -155px -495px;
+    height: 310px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 990px;
+}
+.content-slider{
+    width: 578px;
+    display: inline-block;
+}
+.content-slider ol{
+    display: none;
+}
+.text-slider{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    width: 400px
+
+}
+.text-slider h2{
+    font-size: 1.9em;
+    line-height: 1.35em;
+    margin-top:-5px ;
+
+}
+
+/*=================================================================
+state
+===================================================================*/
+.show{
+    display: block;
 }
