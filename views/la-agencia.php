@@ -21,7 +21,7 @@
             </div>
         </li>
         <li>
-            <div class="panel"  data-panel="panel3">
+            <div class="panel" data-panel="panel3">
                 <div class="front">
                     <img src="images/publicidadBTL01.jpg"/>
                 </div>
@@ -33,96 +33,119 @@
     </ul>
 
 </section>
-<div id="panel1" class="back-pop-up">
-    <div class="content-pop-up">
-        <div class="close"><img src="images/close.png" alt=""/></div>
-        <div class="content-slider">
-            <div class="slider">
-                <ul class="slides">
-                    <li><img src="images/001.jpg" alt=""/></li>
-                    <li><img src="images/002.jpg" alt=""/></li>
-                </ul>
-            </div>
-        </div>
-        <div class="text-slider">
-            <h2>
-                Arquitectura Efímera <br/>
-                Stands<br/>
-                Escenografías<br/>
-                Decoración Comercial<br/>
-            </h2>
-
-            <p>
-                <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales y únicos, donde el
-                objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                apostando
-                siempre por la innovación.
-                Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores experiencias
-                que
-                darán forma al espacio que imagina.
-            </p>
+<div id="clients">
+    <div class="title-clients">
+        <img src="images/clientes.jpg" alt=""/>
+    </div>
+    <div class="slide-client">
+        <div class="slider-client">
+            <ul class="slides">
+                <li><img src="images/tecnofarma2.png" alt=""/></li>
+                <li><img src="images/takeda.png" alt=""/></li>
+                <li><img src="images/skinceuticals2.png" alt=""/></li>
+                <li><img src="images/roche.png" alt=""/></li>
+                <li><img src="images/lilly.png" alt=""/></li>
+                <li><img src="images/novartis.png" alt=""/></li>
+                <li><img src="images/la%20roche.png" alt=""/></li>
+            </ul>
         </div>
     </div>
-</div>
-<div id="panel2" class="back-pop-up">
-    <div class="content-pop-up">
-        <div class="close"><img src="images/close.png" alt=""/></div>
-        <div class="content-slider">
-            <div class="slider">
-                <ul class="slides">
-                    <li><img src="images/001.jpg" alt=""/></li>
-                    <li><img src="images/002.jpg" alt=""/></li>
-                </ul>
+    <div id="panel1" class="back-pop-up">
+        <div class="content-pop-up">
+            <div class="close"><img src="images/close.png" alt=""/></div>
+            <div class="content-slider">
+                <div class="slider">
+                    <ul class="slides">
+                        <li><img src="images/001.jpg" alt=""/></li>
+                        <li><img src="images/002.jpg" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-slider">
+                <h2>
+                    Arquitectura Efímera <br/>
+                    Stands<br/>
+                    Escenografías<br/>
+                    Decoración Comercial<br/>
+                </h2>
+
+                <p>
+                    <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
+                    y únicos, donde el
+                    objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
+                    apostando
+                    siempre por la innovación.
+                    Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
+                    experiencias
+                    que
+                    darán forma al espacio que imagina.
+                </p>
             </div>
         </div>
-        <div class="text-slider">
-            <h2>
-                Arquitectura Efímera <br/>
-                Stands<br/>
-                Escenografías<br/>
-                Decoración Comercial<br/>
-            </h2>
-
-            <p>
-                <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales y únicos, donde el
-                objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                apostando
-                siempre por la innovación.
-                Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores experiencias
-                que
-                darán forma al espacio que imagina.
-            </p>
-        </div>
     </div>
-</div>
-<div id="panel3" class="back-pop-up">
-    <div class="content-pop-up">
-        <div class="close"><img src="images/close.png" alt=""/></div>
-        <div class="content-slider">
-            <div class="slider">
-                <ul class="slides">
-                    <li><img src="images/002.jpg" alt=""/></li>
-                    <li><img src="images/001.jpg" alt=""/></li>
-                </ul>
+    <div id="panel2" class="back-pop-up">
+        <div class="content-pop-up">
+            <div class="close"><img src="images/close.png" alt=""/></div>
+            <div class="content-slider">
+                <div class="slider">
+                    <ul class="slides">
+                        <li><img src="images/001.jpg" alt=""/></li>
+                        <li><img src="images/002.jpg" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-slider">
+                <h2>
+                    Arquitectura Efímera <br/>
+                    Stands<br/>
+                    Escenografías<br/>
+                    Decoración Comercial<br/>
+                </h2>
+
+                <p>
+                    <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
+                    y únicos, donde el
+                    objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
+                    apostando
+                    siempre por la innovación.
+                    Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
+                    experiencias
+                    que
+                    darán forma al espacio que imagina.
+                </p>
             </div>
         </div>
-        <div class="text-slider">
-            <h2>
-                Arquitectura <br/>
-                Stands<br/>
-                Escenografías<br/>
-                Decoración Comercial<br/>
-            </h2>
+    </div>
+    <div id="panel3" class="back-pop-up">
+        <div class="content-pop-up">
+            <div class="close"><img src="images/close.png" alt=""/></div>
+            <div class="content-slider">
+                <div class="slider">
+                    <ul class="slides">
+                        <li><img src="images/002.jpg" alt=""/></li>
+                        <li><img src="images/001.jpg" alt=""/></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-slider">
+                <h2>
+                    Arquitectura <br/>
+                    Stands<br/>
+                    Escenografías<br/>
+                    Decoración Comercial<br/>
+                </h2>
 
-            <p>
-                <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales y únicos, donde el
-                objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                apostando
-                siempre por la innovación.
-                Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores experiencias
-                que
-                darán forma al espacio que imagina.
-            </p>
+                <p>
+                    <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
+                    y únicos, donde el
+                    objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
+                    apostando
+                    siempre por la innovación.
+                    Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
+                    experiencias
+                    que
+                    darán forma al espacio que imagina.
+                </p>
+            </div>
         </div>
     </div>
-</div>

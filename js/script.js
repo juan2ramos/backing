@@ -10,6 +10,14 @@ $(function () {
             nextText: ""
         });
     }
+    if ($('.slider-client').length > 0) {
+        $('.slider-client').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            itemWidth: 200,
+            itemMargin: 4
+        });
+    }
     $panel.hover(function () {
         $(this).addClass('flip');
     }, function () {
