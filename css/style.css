@@ -310,7 +310,7 @@ Client
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 50%;
+    right: 48%;
     margin-left:-50px;
     top: 120%
 }
@@ -343,7 +343,7 @@ Client
     background: #000;
 }
 .content-slider .flex-control-paging{
-    left: 585px;
+    right: 409px;
     top: 103%;
 }
 /*=================================================================
