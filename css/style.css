@@ -460,7 +460,8 @@ textarea{
 }
 .back-link {
     background: rgba(255, 255, 255, 0.9);
-    height: 100%;
+    border-bottom: thin solid #005abc;
+    height: 99.9%;
     left: 0;
     position: fixed;
     top: -100%;
