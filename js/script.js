@@ -44,7 +44,16 @@ $(function () {
         var panel = $(this).data('panel');
         $('#' + panel).addClass('show');
     });
+    $('#agencia').on('click', function () {
+
+        event.preventDefault();
+        $('#la-agencia-pop').addClass('show');
+    });
     $close.on('click',function(){
+        var youtube = jQuery('iframe[src*="youtube"]');
+        var src = youtube.attr('src');
+        youtube.attr('src', '');
+        youtube.attr('src', src);
         $(this).parents('.back-pop-up').removeClass('show');
     });
 });

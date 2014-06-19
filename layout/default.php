@@ -40,42 +40,13 @@
 </head>
 <body>
 <div id="wrap">
-<header>
-
-    <figure><img src="images/logo.png" alt="logo-backing"/></figure>
-</header>
-<nav>
-
-    <ul id="nav">
-        <li><a href="la-agencia" class="<?php if ($url == 'la-agencia'): echo('active'); endif ?>">La agencia</a></li>
-        <li><a href="nuestro-trabajo" class="<?php if ($url == 'nuestro-trabajo'): echo('active'); endif ?>">Nuestro
-            Trabajo</a></li>
-        <li><a href="clientes" class="<?php if ($url == 'clientes'): echo('active'); endif ?>">Clientes</a></li>
-        <li><a href="galeria" class="<?php if ($url == 'galeria'): echo('active'); endif ?>">Galería</a></li>
-        <li><a href="contacto" class="<?php if ($url == 'contacto'): echo('active'); endif ?>">Contacto</a></li>
-    </ul>
-    <ul id="network">
-        <li><a href="https://www.facebook.com/pages/Backing-SAS/18522336494"><span class="icon-facebook"></span></a></li>
-        <li><a href="https://twitter.com/BACKINGPRODUCTI" class="twitter"><span class="icon-twitter"></span></a></li>
-    </ul>
-</nav>
 
 
+
+<?php include $header; ?>
 <?php include $fileName; ?>
-</div>
-<footer>
-    ®Backing - Todos los derechos Reservados - 2014 - Diseño Web:
-</footer>
-<div id="sound">
+<?php include $footer; ?>
 
-    <div class="waves"></div>
-    <div class="waves w2" ></div>
-    <div class="waves w3"></div>
-    <div class="body-speaker"></div>
-    <div class="speaker"></div>
-    <audio id='mySound' src="https://trello-attachments.s3.amazonaws.com/539f54af192436e884b674e6/53a1a65c35807d17206a448c/8259851d98c33dd44493cdfdf7b80495/Dmitry_Ashin__Friendship__(1).mp3" autoplay loop>
-    </audio>
-</div>
 <!-- JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
