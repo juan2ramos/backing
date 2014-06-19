@@ -342,7 +342,8 @@ Client
     background: #000;
 }
 .content-slider .flex-control-paging{
-    left: 585px;
+    left: auto;
+    right: 405px;
     top: 103%;
 }
 /*=================================================================
@@ -401,6 +402,70 @@ Sound
 }
 .w3{
     right: 17px
+}
+
+/*=================================================================
+Form
+===================================================================*/
+form{
+
+}
+label, input{
+    display: block;
+    padding: 5px 0;
+}
+label{
+    font-size: .9em;
+}
+input{
+    height: 15px;
+    width: 200px
+}
+input,textarea{
+    background: #f1f1f1;
+    border: solid 1px #005ABC;
+}
+textarea{
+    height:50px;
+    width: 196px
+}
+.submit{
+    background: #005ABC;
+    color: #fff;
+    height: 35px;
+    margin:  15px 0;
+    width: 100px;
+}
+.submit:hover{
+    background: #009bff;
+}
+.info-contact{
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+.info-contact span{
+    background: #005ABC;
+    border-radius: 20px;
+    display: inline-block;
+    height: 15px;
+    margin: 2px 12px;
+    vertical-align: top;
+    width: 15px;
+}
+.info-contact span:first-child{
+
+    margin-left: 0;
+
+}
+.back-link {
+    background: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    transition: all .8s ease;
+    z-index: 1000;
 }
 /*=================================================================
 state

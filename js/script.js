@@ -1,7 +1,8 @@
 $(function () {
     /* SLIDER */
-    var $panel = $('.panel');
-    var $sound = $('#sound');
+    var $panel = $('.panel'),
+        $sound = $('#sound'),
+        $link  = $('.link');
 
 
 
@@ -44,10 +45,11 @@ $(function () {
         var panel = $(this).data('panel');
         $('#' + panel).addClass('show');
     });
-    $('#agencia').on('click', function () {
+    $link.on('click', function () {
 
         event.preventDefault();
-        $('#la-agencia-pop').addClass('show');
+        var link = $(this).data('link');
+        $('#' + link).addClass('show');
     });
     $close.on('click',function(){
         var youtube = jQuery('iframe[src*="youtube"]');
@@ -55,5 +57,6 @@ $(function () {
         youtube.attr('src', '');
         youtube.attr('src', src);
         $(this).parents('.back-pop-up').removeClass('show');
+        $(this).parents('.back-link').removeClass('show');
     });
 });
