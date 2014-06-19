@@ -135,22 +135,18 @@
             </div>
             <div class="text-slider">
                 <h2>
-                    Arquitectura <br/>
-                    Stands<br/>
-                    Escenografías<br/>
-                    Decoración Comercial<br/>
+                    Diseño grafico e industrial <br/>
+                    Activaciones<br/>
+                    Mercadeo directo<br/>
+                    Marketing alternativo<br/>
                 </h2>
 
                 <p>
-                    <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
-                    y únicos, donde el
-                    objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                    apostando
-                    siempre por la innovación.
-                    Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
-                    experiencias
-                    que
-                    darán forma al espacio que imagina.
+                    Publicidad BTL o “Below the line”; En <b>Backing</b>  empleamos formas 
+                    de comunicación no masivas dirigidas a segmentos de mercado específicos, 
+                    promocionando productos o servicios mediante acciones cuya concepción se 
+                    caracteriza por ser altamente creativo, introduciendo novedosos canales 
+                    para comunicar mensajes publicitarios y corporativos. 
                 </p>
             </div>
         </div>
