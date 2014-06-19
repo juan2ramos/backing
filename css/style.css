@@ -237,6 +237,7 @@ pop up
 .back-pop-up {
     background: rgba(255, 255, 255, 0.9);;
     bottom: 100%;
+    border: thin solid #005abc;
     height: 100%;
     left: 0;
     position: fixed;
