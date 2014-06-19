@@ -9,7 +9,7 @@
 <html lang="es">
 <head>
 
-    <title><?php echo $title ?></title>
+    <title>Backing - Diseño, Produccion de Stands, Eventos y BTL</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -17,6 +17,8 @@
     <meta name="contact" content="juan2ramos@mi-martinez.com"/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1"/>
+    <meta name="description" content="Backing es una agencia btl en Colombia dedicada al diseño, producción, montaje de stands y eventos corporativos "/>
+    <meta name="keywords" content="Backing, eventos, alquiler, produccion, diseño, equipo tecnico,&nbsp; publicidad btl, exhibicion, lanzamientos, creatividad,backing"/>
     <!-- Meta Facebook -->
     <meta property="og:url" content="http://backing.com.co/">
     <meta property="og:title" content="Backing - Stands, Eventos, Producción, publicidad BTL..."/>

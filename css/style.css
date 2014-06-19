@@ -237,6 +237,7 @@ pop up
 .back-pop-up {
     background: rgba(255, 255, 255, 0.9);;
     bottom: 100%;
+    border: thin solid #005abc;
     height: 100%;
     left: 0;
     position: fixed;
@@ -309,7 +310,7 @@ Client
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 50%;
+    right: 48%;
     margin-left:-50px;
     top: 120%
 }
@@ -342,8 +343,12 @@ Client
     background: #000;
 }
 .content-slider .flex-control-paging{
+<<<<<<< HEAD
     left: auto;
     right: 405px;
+=======
+    right: 409px;
+>>>>>>> 1be0c3446b3960275e8faf0c3bc4988e5cf9071e
     top: 103%;
 }
 /*=================================================================
