@@ -343,12 +343,8 @@ Client
     background: #000;
 }
 .content-slider .flex-control-paging{
-<<<<<<< HEAD
     left: auto;
-    right: 405px;
-=======
     right: 409px;
->>>>>>> 1be0c3446b3960275e8faf0c3bc4988e5cf9071e
     top: 103%;
 }
 /*=================================================================
