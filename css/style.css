@@ -242,7 +242,7 @@ pop up
     position: fixed;
     top: 100%;
     width: 100%;
-    transition: all .2s ease;
+    transition: all .8s ease;
     z-index: 1000;
 }
 

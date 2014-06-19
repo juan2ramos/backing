@@ -94,29 +94,30 @@
             <div class="content-slider">
                 <div class="slider">
                     <ul class="slides">
-                        <li><img src="images/001.jpg" alt=""/></li>
-                        <li><img src="images/002.jpg" alt=""/></li>
+                        <li><img src="images/event01.jpg" alt=""/></li>
+                        <li><img src="images/event02.jpg" alt=""/></li>
+                        <li><img src="images/event03.jpg" alt=""/></li>
+                        <li><img src="images/event04.jpg" alt=""/></li>
+                        <li><img src="images/event05.jpg" alt=""/></li>
+                        <li><img src="images/event06.jpg" alt=""/></li>
+                        <li><img src="images/event07.jpg" alt=""/></li>
                     </ul>
                 </div>
             </div>
             <div class="text-slider">
                 <h2>
-                    Arquitectura Efímera <br/>
-                    Stands<br/>
-                    Escenografías<br/>
-                    Decoración Comercial<br/>
+                    Lanzamiento de punto<br/>
+                    Posicionamiento de Marca<br/>
+                    Conferencias<br/>
+                    Convenciones<br/>
+                    Congresos y giras<br/>
                 </h2>
 
                 <p>
-                    <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
-                    y únicos, donde el
-                    objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                    apostando
-                    siempre por la innovación.
-                    Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
-                    experiencias
-                    que
-                    darán forma al espacio que imagina.
+                    Un evento ha sido siempre para nosotros como una puesta en escena, 
+                    algo lleno de adrenalina. <b>Backing</b> crea experiencias perfectas donde todo y todos funcionan al 
+                    100%  enlazando  concepto, técnica, diseño y logística; 
+                    logrando impacto y posicionamiento de marca exitosos.
                 </p>
             </div>
         </div>
