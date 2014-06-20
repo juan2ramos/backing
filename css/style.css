@@ -420,7 +420,7 @@ label{
 }
 input{
     height: 15px;
-    width: 200px
+    width: 300px
 }
 input,textarea{
     background: #f1f1f1;
@@ -428,7 +428,7 @@ input,textarea{
 }
 textarea{
     height:50px;
-    width: 196px
+    width: 300px
 }
 .submit{
     background: #005ABC;
