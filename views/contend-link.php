@@ -14,8 +14,7 @@
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
         <div class="content-slider">
-            <iframe width="580" height="315" src="//www.youtube.com/embed/QmJ0Djlg-rg" frameborder="0"
-                    allowfullscreen></iframe>
+            <iframe width="580" height="315" src="//www.youtube.com/embed/QmJ0Djlg-rg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text-slider">
             <h2>
@@ -36,8 +35,7 @@
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
         <div class="content-slider">
-            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA" frameborder="0"
-                    allowfullscreen></iframe>
+            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text-slider">
             <h2>
