@@ -23,22 +23,15 @@
         </div>
         <div class="text-slider">
             <h2>
-                Arquitectura <br/>
-                Stands<br/>
-                Escenografías<br/>
-                Decoración Comercial<br/>
+                <br/>
+                <br/>
+                Backing <br/>
             </h2>
 
             <p>
-                <b>Backing</b> se basa en la creación, producción y decoración de espacios sorprendentes, originales
-                y únicos, donde el
-                objetivo primordial de nuestra arquitectura efímera es comunicar a través del espacio y el diseño,
-                apostando
-                siempre por la innovación.
-                Diseñamos espacios que aseguran la exhibición de productos y marcas logrando las mejores
-                experiencias
-                que
-                darán forma al espacio que imagina.
+                Somos una agencia donde creamos espacios y experiencias, 
+                creando ambientes propicios para la adecuada exhibición de marcas y 
+                productos que cumplan con los requerimientos de nuestros clientes.
             </p>
         </div>
     </div>

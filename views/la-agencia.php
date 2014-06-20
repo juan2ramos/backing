@@ -35,7 +35,7 @@
 </section>
 <div id="clients">
     <div class="title-clients">
-        <img src="images/clientes.jpg" alt=""/>
+        <img src="images/clientes1.jpg" alt=""/>
     </div>
     <div class="slide-client">
         <div class="slider-client">

@@ -235,7 +235,7 @@ La agencia
 pop up
 ===================================================================*/
 .back-pop-up {
-    background: rgba(255, 255, 255, 0.9);;
+    background: rgba(255, 255, 255, 1);;
     bottom: 100%;
     border: thin solid #005abc;
     height: 100%;
@@ -459,7 +459,7 @@ textarea{
 
 }
 .back-link {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 1);
     border-bottom: thin solid #005abc;
     height: 99.9%;
     left: 0;
