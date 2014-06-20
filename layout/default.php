@@ -17,8 +17,10 @@
     <meta name="contact" content="juan2ramos@mi-martinez.com"/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1"/>
-    <meta name="description" content="Backing es una agencia btl en Colombia dedicada al diseño, producción, montaje de stands y eventos corporativos "/>
-    <meta name="keywords" content="Backing, eventos, alquiler, produccion, diseño, equipo tecnico,&nbsp; publicidad btl, exhibicion, lanzamientos, creatividad,backing"/>
+    <meta name="description"
+          content="Backing es una agencia btl en Colombia dedicada al diseño, producción, montaje de stands y eventos corporativos "/>
+    <meta name="keywords"
+          content="Backing, eventos, alquiler, produccion, diseño, equipo tecnico,&nbsp; publicidad btl, exhibicion, lanzamientos, creatividad,backing"/>
     <!-- Meta Facebook -->
     <meta property="og:url" content="http://backing.com.co/">
     <meta property="og:title" content="Backing - Stands, Eventos, Producción, publicidad BTL..."/>
@@ -27,6 +29,7 @@
     <meta property="og:image" content="http://backing.com.co/images/ogimage.jpg"/>
 
 
+    <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
     <link rel="shortcut icon" href="favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700' rel='stylesheet'
           type='text/css'>
@@ -44,14 +47,20 @@
 <div id="wrap">
 
 
+    <?php include $header; ?>
+    <?php include $fileName; ?>
+    <?php include $footer; ?>
+    <?php include $contend; ?>
 
-<?php include $header; ?>
-<?php include $fileName; ?>
-<?php include $footer; ?>
-
-<!-- JavaScript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-<script src="js/script.js"></script>
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.gallery.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#dg-container').gallery();
+        });
+    </script/>
 </body>
 </html>
