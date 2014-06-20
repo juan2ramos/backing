@@ -40,20 +40,19 @@
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
         <div class="content-slider">
-            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA" frameborder="0"
+            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA?rel=0&autoplay=1" frameborder="0"
                     allowfullscreen></iframe>
         </div>
         <div class="text-slider">
             <h2>
                 <br/>
                 <br/>
-                Backing <br/>
+                <br/>
+                Nuestro trabajo<br/>
             </h2>
 
             <p>
-                Somos una agencia donde creamos espacios y experiencias,
-                creando ambientes propicios para la adecuada exhibición de marcas y
-                productos que cumplan con los requerimientos de nuestros clientes.
+                proporcionar texto
             </p>
         </div>
     </div>
