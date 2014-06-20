@@ -3,7 +3,7 @@
         <li>
             <div class="panel" data-panel="panel1">
                 <div class="front">
-                    <img src="images/arquitecturaefimera02.jpg"/>
+                    <img src="images/arquitecturaefimera02a.jpg"/>
                 </div>
                 <div class="back">
                     <img src="images/arquitecturaefimera01.jpg">
@@ -13,7 +13,7 @@
         <li>
             <div class="panel" data-panel="panel2">
                 <div class="front">
-                    <img src="images/eventosmarca02.jpg"/>
+                    <img src="images/eventosmarca02a.jpg"/>
                 </div>
                 <div class="back">
                     <img src="images/eventosmarca01.jpg">
@@ -23,7 +23,7 @@
         <li>
             <div class="panel" data-panel="panel3">
                 <div class="front">
-                    <img src="images/publicidadBTL02.jpg"/>
+                    <img src="images/publicidadBTL02a.jpg"/>
                 </div>
                 <div class="back">
                     <img src="images/publicidadBTL01.jpg">
@@ -40,18 +40,18 @@
     <div class="slide-client">
         <div class="slider-client">
             <ul class="slides">
-                <li><img src="images/tecnofarma2.png" alt=""/></li>
-                <li><img src="images/takeda.png" alt=""/></li>
-                <li><img src="images/skinceuticals2.png" alt=""/></li>
-                <li><img src="images/roche.png" alt=""/></li>
-                <li><img src="images/lilly.png" alt=""/></li>
-                <li><img src="images/novartis.png" alt=""/></li>
-                <li><img src="images/roche.png" alt=""/></li>
-                <li><img src="images/abbott-nutrition.png" alt=""/></li>
-                <li><img src="images/zambon.png" alt=""/></li>
-                <li><img src="images/janssen.png" alt=""/></li>
-                <li><img src="images/ferragamo.png" alt=""/></li>
-                <li><img src="images/astrazeneca.png" alt=""/></li>
+                <li><img src="images/tecnofarma1.png" alt=""/></li>
+                <li><img src="images/takeda1.png" alt=""/></li>
+                <li><img src="images/skinceuticals1.png" alt=""/></li>
+                <li><img src="images/roche1.png" alt=""/></li>
+                <li><img src="images/lilly1.png" alt=""/></li>
+                <li><img src="images/novartis1.png" alt=""/></li>
+                <li><img src="images/roche1.png" alt=""/></li>
+                <li><img src="images/abbott-nutrition1.png" alt=""/></li>
+                <li><img src="images/zambon1.png" alt=""/></li>
+                <li><img src="images/janssen1.png" alt=""/></li>
+                <li><img src="images/ferragamo1.png" alt=""/></li>
+                <li><img src="images/astrazeneca1.png" alt=""/></li>
             </ul>
         </div>
     </div>
