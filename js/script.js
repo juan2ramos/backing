@@ -46,14 +46,21 @@ $(function () {
         $('#' + panel).addClass('show');
     });
     $link.on('click', function () {
-
         event.preventDefault();
         var link = $(this).data('link');
+        var you = $('#' + link + '-video').find('iframe[src*="youtube"]');
+        var src = you.attr('src');
+        var srcArray = src.split("?");
+        you.attr('src',srcArray[0]+'?rel=0&autoplay=1')
+
         $('#' + link).addClass('show');
     });
     $close.on('click',function(){
-        var youtube = jQuery('iframe[src*="youtube"]');
+
+        var youtube = $(this).siblings('.content-slider').find('iframe[src*="youtube"]');
+
         var src = youtube.attr('src');
+
         youtube.attr('src', '');
         youtube.attr('src', src);
         $(this).parents('.back-pop-up').removeClass('show');
