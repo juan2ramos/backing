@@ -48,12 +48,13 @@ $(function () {
     $link.on('click', function () {
         event.preventDefault();
         var link = $(this).data('link');
+        $('#' + link).addClass('show');
         var you = $('#' + link + '-video').find('iframe[src*="youtube"]');
         var src = you.attr('src');
         var srcArray = src.split("?");
         you.attr('src',srcArray[0]+'?rel=0&autoplay=1')
 
-        $('#' + link).addClass('show');
+
     });
     $close.on('click',function(){
 
