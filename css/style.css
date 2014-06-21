@@ -52,7 +52,7 @@
     font-style: normal;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icons-"]:before, [class*=" icons-"]:before {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
@@ -70,7 +70,7 @@
     margin-left: .2em;
 }
 
-.icon-fuentelogo:before { content: '\e800'; }
+.icons-fuentelogo:before { content: '\e800'; }
 *:focus {
     outline: 0;
 }
