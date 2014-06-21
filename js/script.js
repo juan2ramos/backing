@@ -30,7 +30,7 @@ $(function () {
         $(this).removeClass('flip');
     });
     $sound.on('click',function(){
-
+        
         var song = $('#mySound').get(0);
         if (song.paused) {
             song.play();
