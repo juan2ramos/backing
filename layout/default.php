@@ -59,7 +59,7 @@
     <script src="js/script.js"></script>
     <script type="text/javascript">
         $(function() {
-            $('#dg-container').gallery();
+            $('#dg-container').gallery({autoplay:true,interval:300});
         });
     </script/>
 </body>
