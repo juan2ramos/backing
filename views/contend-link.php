@@ -59,17 +59,34 @@
         <div class="close"><img src="images/close.png" alt=""/></div>
         <section id="dg-container" class="dg-container">
             <div class="dg-wrapper">
-                <a href="#"><img src="images/clientes/1.jpg" alt="image01">
-
-                    <div>http://www.colazionedamichy.it/</div>
+                <a href="#"><img src="images/clientes/cli01.jpg" alt="image01">
                 </a>
-                <a href="#"><img src="images/clientes/2.jpg" alt="image02">
-
-                    <div>http://www.percivalclo.com/</div>
+                <a href="#"><img src="images/clientes/cli02.jpg" alt="image01">
                 </a>
-                <a href="#"><img src="images/clientes/3.jpg" alt="image03">
-
-                    <div>http://www.wanda.net/fr</div>
+                <a href="#"><img src="images/clientes/cli03.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli04.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli05.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli06.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli07.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli08.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli09.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli10.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli11.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli12.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli13.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli14.jpg" alt="image01">
+                </a>
                 </a>
             </div>
             <nav>
