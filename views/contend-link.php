@@ -11,10 +11,10 @@
     </audio>
 </div>
 <div id="agencia" class="back-link">
-    <div class="content-pop-up" id="agencia-video">
+    <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
         <div class="content-slider">
-            <iframe width="580" height="315" src="//www.youtube.com/embed/QmJ0Djlg-rg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="580" height="315" src="//www.youtube.com/embed/QmJ0Djlg-rg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text-slider">
             <h2>
@@ -34,8 +34,8 @@
 <div id="nuestro-trabajo" class="back-link">
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
-        <div class="content-slider" id="nuestro-trabajo-video">
-            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA" frameborder="0" allowfullscreen></iframe>
+        <div class="content-slider">
+            <iframe width="580" height="315" src="//www.youtube.com/embed/XNbcyqvNhDA?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="text-slider">
             <h2>
@@ -87,7 +87,6 @@
                 </a>
                 <a href="#"><img src="images/clientes/cli14.jpg" alt="image01">
                 </a>
-                </a>
             </div>
             <nav>
                 <span class="dg-prev">&lt;</span>
@@ -101,7 +100,7 @@
 <div id="contacto" class="back-link">
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
-        <div class="content-slider" >
+        <div class="content-slider">
             <iframe width="578" height="281" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                     src="https://www.google.es/maps/ms?msa=0&amp;msid=203150899245748350770.0004f3bd662d133bb7ce5&amp;hl=es&amp;ie=UTF8&amp;t=m&amp;ll=4.719344,-74.0546&amp;spn=0.003293,0.006191&amp;z=17&amp;output=embed">
 
