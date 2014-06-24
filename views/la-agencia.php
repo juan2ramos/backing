@@ -128,8 +128,13 @@
             <div class="content-slider">
                 <div class="slider">
                     <ul class="slides">
-                        <li><img src="images/002.jpg" alt=""/></li>
-                        <li><img src="images/001.jpg" alt=""/></li>
+                        <li><img src="images/btl01.jpg" alt=""/></li>
+                        <li><img src="images/btl02.jpg" alt=""/></li>
+                        <li><img src="images/btl03.jpg" alt=""/></li>
+                        <li><img src="images/btl04.jpg" alt=""/></li>
+                        <li><img src="images/btl05.jpg" alt=""/></li>
+                        <li><img src="images/btl06.jpg" alt=""/></li>
+                        
                     </ul>
                 </div>
             </div>
