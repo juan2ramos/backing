@@ -106,7 +106,7 @@
             </div>
             <div class="text-slider">
                 <h2>
-                    Lanzamiento de punto<br/>
+                    Lanzamiento de producto<br/>
                     Posicionamiento de Marca<br/>
                     Conferencias<br/>
                     Convenciones<br/>
