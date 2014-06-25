@@ -72,8 +72,16 @@
             <div class="content-slider">
                 <div class="slider">
                     <ul class="slides">
-                        <li><img src="images/001.jpg" alt=""/></li>
-                        <li><img src="images/002.jpg" alt=""/></li>
+                        <li><img src="images/stan01.jpg" alt=""/></li>
+                        <li><img src="images/stan02.jpg" alt=""/></li>
+                        <li><img src="images/stan03.jpg" alt=""/></li>
+                        <li><img src="images/stan04.jpg" alt=""/></li>
+                        <li><img src="images/stan05.jpg" alt=""/></li>
+                        <li><img src="images/stan06.jpg" alt=""/></li>
+                        <li><img src="images/stan07.jpg" alt=""/></li>
+                        <li><img src="images/stan08.jpg" alt=""/></li>
+                        <li><img src="images/stan09.jpg" alt=""/></li>
+                        <li><img src="images/stan10.jpg" alt=""/></li>
                     </ul>
                 </div>
             </div>
