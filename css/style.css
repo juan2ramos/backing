@@ -322,13 +322,13 @@ Client
 }
 
 .title-clients, .slide-client {
-    display: inline-block;
-    vertical-align: middle;
+
 }
 
 .slide-client {
     width: 900px;
     position: relative;
+    margin: 0 auto;
 }
 
 .flex-direction-nav {
@@ -339,15 +339,21 @@ Client
     position: absolute;
     margin: 0;
     padding: 0;
-    right: 48%;
-    margin-left:-50px;
-    top: 120%
+    right: 450px;
+    margin-left:-10px;
 }
 
 .flex-viewport {
     width: 900px;
 }
-
+.slider-frases{
+    height: 90px;
+    margin: 0 auto;
+    width: 818px;
+}
+.slider-frases ol{
+    display: none;
+}
 .slider-client .slides li {
     text-align: center;
     height: 150px;

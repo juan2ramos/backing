@@ -15,6 +15,14 @@ $(function () {
             nextText: ""
         });
     }
+    if ($('.slider').length > 0) {
+        $('.slider-frases').flexslider({
+            animation: "fade",
+            slideshow: true,
+            prevText: "",
+            nextText: ""
+        });
+    }
     if ($('.slider-client').length > 0) {
         $('.slider-client').flexslider({
             animation: "slide",

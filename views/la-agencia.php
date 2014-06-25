@@ -33,9 +33,20 @@
     </ul>
 
 </section>
+<div id="frases">
+    <div class="slider-frases">
+        <ul class="slides">
+            <li><img src="images/frases.png" alt=""/></li>
+            <li><img src="images/frases.png" alt=""/></li>
+            <li><img src="images/frases.png" alt=""/></li>
+            <li><img src="images/frases.png" alt=""/></li>
+
+        </ul>
+    </div>
+</div>
 <div id="clients">
     <div class="title-clients">
-        <img src="images/clientes1.jpg" alt=""/>
+        <img src="images/clientes.jpg" alt=""/>
     </div>
     <div class="slide-client">
         <div class="slider-client">
