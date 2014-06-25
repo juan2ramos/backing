@@ -328,7 +328,7 @@ Client
 .slide-client {
     width: 900px;
     position: relative;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .flex-direction-nav {
