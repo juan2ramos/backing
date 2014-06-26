@@ -12,6 +12,12 @@ if (!empty($_POST)) {
     require 'include/PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
+    $mail->SMTPAuth = true;     // turn on SMTP authentication
+    $mail->SMTPSecure = "tls";
+    $mail->Host     = "smtp.office365.com";
+    $mail->Username = "soporte@backing.com.co";
+    $mail->Password = "88061460467";
+    $mail->Port        = 587;
     $mail->IsSendmail();
     $mail->FromName ='Formulario Backing Web ' ;
     $mail->CharSet = 'UTF-8';
