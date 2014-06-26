@@ -18,7 +18,7 @@ if (!empty($_POST)) {
     $mail->Username = "soporte@backing.com.co";
     $mail->Password = "88061460467";
     $mail->Port        = 587;
-    $mail->IsSendmail();
+    $mail->IsSMTP();
     $mail->FromName ='Formulario Backing Web ' ;
     $mail->CharSet = 'UTF-8';
     $mail->From = 'backing@backing.com.co';
