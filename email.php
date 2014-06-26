@@ -12,18 +12,20 @@ if (!empty($_POST)) {
     require 'include/PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
-    $mail->SMTPAuth = true;     // turn on SMTP authentication
-    $mail->SMTPSecure = "tls";
-    $mail->Host     = "smtp.office365.com";
+    $mail->IsSMTP();
+    $mail->CharSet = 'UTF-8';
+    $mail->Host = "smtp.live.com";
+    $mail->SMTPAuth= true;
+    $mail->Port = 587;
     $mail->Username = "soporte@backing.com.co";
     $mail->Password = "88061460467";
-    $mail->Port        = 587;
-    $mail->IsSMTP();
+    $mail->SMTPSecure = 'tls';
     $mail->FromName ='Formulario Backing Web ' ;
     $mail->CharSet = 'UTF-8';
-    $mail->From = 'backing@backing.com.co';
+    $mail->From = 'soporte@backing.com.co';
     $mail->Subject = 'Formulario Backing Web';
     $mail->MsgHTML('Mensaje con HTML');
+    $mail->isHTML(true);
     $template = '<h1>Mensaje enviado desde el formulario de backing.com.co</h1><br><br>';
     $template .= 'Nombre: ' . $_POST['name']  . '<br>';
     $template .= 'Email: ' . $_POST['email'] .'<br>';
@@ -34,8 +36,14 @@ if (!empty($_POST)) {
     #$mail->AddAddress('soporte@backing.com.co', '');
     $mail->AddAddress('nemesiscia@gmail.com', '');
     $mail->AddAddress('info@mi-martinez.com', '');
-    $mail->Send();
 
+    if(!$mail->send()){
+        $arrayMsj['success'] = TRUE;
+        $arrayMsj['message'] = 'algo sucedio, no se pudo enviar el mensaje!!';
+    }else{
+        $arrayMsj['success'] = TRUE;
+        $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
+    }
 
     $arrayMsj['success'] = TRUE;
     $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
