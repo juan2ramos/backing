@@ -12,7 +12,7 @@ if (!empty($_POST)) {
     require 'include/PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
-    $mail->SMTPSecure = "starttls";
+    $mail->SMTPSecure = "TLS";
     $mail->SMTPAuth   = true;
     $mail->Username   = 'soporte@backing.com.co';
     $mail->Password   = '88061460467';
