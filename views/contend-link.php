@@ -96,7 +96,17 @@
     </div>
 </div>
 </div>
+<div id="galeria" class="back-link">
+    <div class="content-pop-up">
+        <div class="close"><img src="images/close.png" alt=""/></div>
+        <div class="content-slider">
+            <iframe width="960" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="galeriamuse/index.html"  allowtransparency="true">
 
+            </iframe>
+        </div>
+
+</div>
 <div id="contacto" class="back-link">
     <div class="content-pop-up">
         <div class="close"><img src="images/close.png" alt=""/></div>
