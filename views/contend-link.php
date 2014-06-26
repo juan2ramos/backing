@@ -97,7 +97,7 @@
 </div>
 </div>
 <div id="galeria" class="back-link">
-    <div class="content-pop-up">
+    <div class="content-pop-up slide-iframe">
         <div class="close"><img src="images/close.png" alt=""/></div>
         <div class="content-slider">
             <iframe width="960" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
