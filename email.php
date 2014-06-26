@@ -14,11 +14,11 @@ if (!empty($_POST)) {
     $mail = new PHPMailer;
     $mail->IsSMTP();
     $mail->CharSet = 'UTF-8';
-    $mail->Host = "smtp.live.com";
+    $mail->Host = "smtp-mail.outlook.com";
     $mail->SMTPAuth= true;
     $mail->Port = 587;
     $mail->Username = "soporte@backing.com.co";
-    $mail->Password = "3123231";
+    $mail->Password = "88061460467";
     $mail->SMTPSecure = 'tls';
     $mail->FromName ='Formulario Backing Web ' ;
     $mail->CharSet = 'UTF-8';
