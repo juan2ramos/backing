@@ -1,4 +1,23 @@
 $(function () {
+    /* Form */
+    $('#contact-form').on("submit", function(e) {
+        e.preventDefault();
+        var fields = $(this).serializeArray();
+
+
+        $.post("email.php", fields, responseForm, 'json');
+
+    });
+    function responseForm(r) {
+        console.log(r);
+        if (r.success == 0) {
+            alert(r.message);
+        }
+        else{
+            $('#contact-form').css('display','none');
+            $('.text-slider').append( "<span class='message'>"+r.message+"<span>" );
+        }
+    }
     /* SLIDER */
     var $panel = $('.panel'),
         $sound = $('#sound'),

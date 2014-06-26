@@ -121,12 +121,12 @@
                 Contáctenos
             </h2>
 
-            <form action="" method="post">
+            <form action="" method="post" id="contact-form">
 
                 <label for="name">Nombre y Apellidos : </label>
                 <input type="text" id="name" name="name">
-                <label for="name">Correo electrónico : </label>
-                <input type="text" id="name" name="name">
+                <label for="email">Correo electrónico : </label>
+                <input type="text" id="email" name="email">
                 <label for="comment">Mensaje : </label>
                 <textarea name="comment" id="comment"></textarea>
                 <input type="submit" class="submit" value="ENVIAR">
