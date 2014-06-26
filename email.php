@@ -23,10 +23,10 @@ if (!empty($_POST)) {
     $template .= 'Email: ' . $_POST['email'] .'<br>';
     $template .= 'Mensaje: <br>' . $_POST['comment'] ;
     $mail->Body = $template;
-    #$mail->AddAddress('backing@backing.com.co', '');
-    #$mail->AddAddress('jpena@backing.com.co', '');
-    #$mail->AddAddress('soporte@backing.com.co', '');
-    $mail->AddAddress('juan2ramos@gmail.com', '');
+    $mail->AddAddress('backing@backing.com.co', '');
+    $mail->AddAddress('jpena@backing.com.co', '');
+    $mail->AddAddress('soporte@backing.com.co', '');
+    $mail->AddAddress('info@mi-martinez.com', '');
     $mail->Send();
 
 
