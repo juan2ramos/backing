@@ -12,15 +12,7 @@ if (!empty($_POST)) {
     require 'include/PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
-    $mail->SMTPSecure = "TLS";
-    $mail->SMTPAuth   = true;
-    $mail->Username   = 'soporte@backing.com.co';
-    $mail->Password   = '88061460467';
-    $mail->IsSMTP();
-    $mail->Host       = "smtp.office365.com"; // SMTP server
-    $mail->Port = "587"; //SMTP Port
-    $mail->SMTPDebug  = 2;                     // enables SMTP debug information (for testing)
-    $mail->Debugoutput = 'html';
+    $mail->IsSendmail();
     $mail->FromName ='Formulario Backing Web ' ;
     $mail->CharSet = 'UTF-8';
     $mail->From = 'backing@backing.com.co';
@@ -34,6 +26,7 @@ if (!empty($_POST)) {
     #$mail->AddAddress('backing@backing.com.co', '');
     #$mail->AddAddress('jpena@backing.com.co', '');
     #$mail->AddAddress('soporte@backing.com.co', '');
+    $mail->AddAddress('nemesiscia@gmail.com', '');
     $mail->AddAddress('info@mi-martinez.com', '');
     $mail->Send();
 
