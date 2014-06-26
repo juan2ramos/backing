@@ -1,6 +1,6 @@
 .html
 {
-	background-color: #FFFFFF;
+	background-color: transparent;
 }
 
 #page
@@ -11,7 +11,7 @@
 	background-image: none;
 	border-style: none;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -165,7 +165,7 @@
 	height: 404px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	margin-right: -10000px;
 	position: relative;
 }
@@ -2069,7 +2069,7 @@
 	height: 404px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: transparent;
 	margin-right: -10000px;
 	position: relative;
 }
@@ -3491,8 +3491,9 @@
 
 body
 {
-	padding-top: 36px;
+	padding-top: 0px;
 	padding-bottom: 36px;
+	margin-top: -18px;
 }
 
 #page .verticalspacer
