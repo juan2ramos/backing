@@ -34,7 +34,7 @@ if (!empty($_POST)) {
     #$mail->AddAddress('backing@backing.com.co', '');
     #$mail->AddAddress('jpena@backing.com.co', '');
     #$mail->AddAddress('soporte@backing.com.co', '');
-    $mail->AddAddress('nemesiscia@gmail.com', '');
+    $mail->AddAddress('juan2ramos@gmail.com', '');
     $mail->AddAddress('info@mi-martinez.com', '');
 
     if(!$mail->send()){
