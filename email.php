@@ -35,7 +35,6 @@ if (!empty($_POST)) {
     #$mail->AddAddress('jpena@backing.com.co', '');
     #$mail->AddAddress('soporte@backing.com.co', '');
     $mail->AddAddress('juan2ramos@gmail.com', '');
-    $mail->AddAddress('info@mi-martinez.com', '');
 
     if(!$mail->send()){
         $arrayMsj['success'] = TRUE;
