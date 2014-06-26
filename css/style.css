@@ -519,6 +519,7 @@ Galery
     width: 481px;
     height: 316px;
     margin: 0 auto;
+    margin-left: 170px;
     position: relative;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -548,7 +549,7 @@ Galery
 }
 .dg-wrapper a img{
     display: block;
-    padding: 41px 0px 0px 1px;
+    padding: 41px 0px 0px 65px;
 }
 .dg-wrapper a div{
     font-style: italic;
