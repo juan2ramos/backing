@@ -33,7 +33,7 @@ if (!empty($_POST)) {
     #$mail->AddAddress('jpena@backing.com.co', '');
     #$mail->AddAddress('soporte@backing.com.co', '');
     $mail->AddAddress('nemesiscia@gmail.com', '');
-    #$mail->AddAddress('info@mi-martinez.com', '');
+    $mail->AddAddress('info@mi-martinez.com', '');
     $mail->Send();
 
 
