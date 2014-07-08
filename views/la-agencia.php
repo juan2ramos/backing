@@ -120,6 +120,12 @@
                         <li><img src="images/event05.jpg" alt=""/></li>
                         <li><img src="images/event06.jpg" alt=""/></li>
                         <li><img src="images/event07.jpg" alt=""/></li>
+                        <li><img src="images/event08.jpg" alt=""/></li>
+                        <li><img src="images/event09.jpg" alt=""/></li>
+                        <li><img src="images/event10.jpg" alt=""/></li>
+                        <li><img src="images/event11.jpg" alt=""/></li>
+                        <li><img src="images/event12.jpg" alt=""/></li>
+                        <li><img src="images/event13.jpg" alt=""/></li>
                     </ul>
                 </div>
             </div>
@@ -153,6 +159,9 @@
                         <li><img src="images/btl04.jpg" alt=""/></li>
                         <li><img src="images/btl05.jpg" alt=""/></li>
                         <li><img src="images/btl06.jpg" alt=""/></li>
+                        <li><img src="images/btl07.jpg" alt=""/></li>
+                        <li><img src="images/btl08.jpg" alt=""/></li>
+                        <li><img src="images/btl09.jpg" alt=""/></li>
                         
                     </ul>
                 </div>
