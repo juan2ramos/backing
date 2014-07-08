@@ -1,0 +1,59 @@
+[01-Jul-2014 13:17:05 America/Denver] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:19:27 America/Denver] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:20:00 America/Denver] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:20:45 America/Denver] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:22:04 America/Denver] PHP Parse error:  syntax error, unexpected '  ' (T_STRING) in /home4/backingc/public_html/include/index.php on line 6
+[01-Jul-2014 13:23:14 America/Denver] PHP Parse error:  syntax error, unexpected '  ' (T_STRING) in /home4/backingc/public_html/include/index.php on line 6
+[01-Jul-2014 13:23:15 America/Denver] PHP Parse error:  syntax error, unexpected '  ' (T_STRING) in /home4/backingc/public_html/include/index.php on line 6
+[01-Jul-2014 13:24:12 America/Denver] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home4/backingc/public_html/include/index.php on line 16
+[01-Jul-2014 13:25:11 America/Denver] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home4/backingc/public_html/include/index.php on line 16
+[01-Jul-2014 13:28:25 America/Denver] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:28:25 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:29:01 America/Denver] PHP Warning:  require_once(swiftmailer-masterlib/swift_required.php): failed to open stream: No such file or directory in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:29:01 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'swiftmailer-masterlib/swift_required.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:37:55 America/Denver] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:37:55 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/backingc/public_html/include/index.php on line 2
+[01-Jul-2014 13:44:14 America/Denver] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:44:14 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:45:29 America/Denver] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:45:29 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home4/backingc/public_html/include/index.php on line 3
+[01-Jul-2014 13:46:09 America/Denver] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Network is unreachable #101]' in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/backingc/public_html/include/index.php(32): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[01-Jul-2014 13:47:28 America/Denver] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/backingc/public_html/include/index.php(32): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[01-Jul-2014 13:48:02 America/Denver] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/backingc/public_html/include/index.php(32): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[01-Jul-2014 13:49:04 America/Denver] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/backingc/public_html/include/index.php(32): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[01-Jul-2014 13:49:39 America/Denver] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [Connection timed out #110]' in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/backingc/public_html/include/index.php(32): Swift_Mailer->send(Object(Swift_Message))
+#4 {main}
+  thrown in /home4/backingc/public_html/include/swiftmailer-master/lib/classes/Swift/Transport/StreamBuffer.php on line 271

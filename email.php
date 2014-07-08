@@ -1,61 +1,28 @@
 <?php
-// El mensaje
-$mensaje = "Línea 1\r\nLínea 2\r\nLínea 3";
+ require 'include/PHPMailer/PHPMailerAutoload.php';
 
-// Si cualquier línea es más larga de 70 caracteres, se debería usar wordwrap()
-$mensaje = wordwrap($mensaje, 70, "\r\n");
-
-// Enviarlo
-mail('info@mi-martinez.com', 'Mi título', $mensaje);
-/*
-if (!empty($_POST)) {
-
-    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['comment']) ){
-        $arrayMsj['success'] = FALSE;
-        $arrayMsj['message'] = 'Todos los campos son requeridos';
-        echo (json_encode($arrayMsj));
-        exit;
-    }
-
-    require 'include/PHPMailer/PHPMailerAutoload.php';
-
-    $mail = new PHPMailer;
-    $mail->IsSMTP();
+    $mail = new PHPMailer(true);
+    try {
+   $mail = new PHPMailer;
+    $mail->IsSendmail();
+    $mail->FromName ='Formulario via' ;
     $mail->CharSet = 'UTF-8';
-    $mail->Host = "smtp-mail.outlook.com";
-    $mail->SMTPAuth= true;
-    $mail->Port = 587;
-    $mail->Username = "soporte@backing.com.co";
-    $mail->Password = "88061460467";
-    $mail->SMTPSecure = 'tls';
-    $mail->FromName ='Formulario Backing Web ' ;
-    $mail->CharSet = 'UTF-8';
-    $mail->From = 'soporte@backing.com.co';
-    $mail->Subject = 'Formulario Backing Web';
+    $mail->From = 'juan2ramos@gmail.com';
+    $mail->Subject ='sd';
     $mail->MsgHTML('Mensaje con HTML');
-    $mail->isHTML(true);
-    $template = '<h1>Mensaje enviado desde el formulario de backing.com.co</h1><br><br>';
-    $template .= 'Nombre: ' . $_POST['name']  . '<br>';
-    $template .= 'Email: ' . $_POST['email'] .'<br>';
-    $template .= 'Mensaje: <br>' . $_POST['comment'] ;
+    $template = '<h1>Mensaje enviado desde el formulario de via</h1><br><br>';
+    $template .= 'Nombre: <br>';
+    $template .= 'Email: <br>';
+    $template .= 'Mensaje: <br>' ;
     $mail->Body = $template;
-    #$mail->AddAddress('backing@backing.com.co', '');
-    #$mail->AddAddress('jpena@backing.com.co', '');
-    #$mail->AddAddress('soporte@backing.com.co', '');
-    $mail->AddAddress('juan2ramos@gmail.com', '');
-
-    if(!$mail->send()){
-        $arrayMsj['success'] = TRUE;
-        $arrayMsj['message'] = 'algo sucedio, no se pudo enviar el mensaje!!';
-    }else{
-        $arrayMsj['success'] = TRUE;
-        $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
-    }
+    $mail->AddAddress('juan2ramos@hotmail.com', '');
+    $mail->Send(); 
 
     $arrayMsj['success'] = TRUE;
     $arrayMsj['message'] = 'Felicitaciones, su mensaje a sido enviado con éxito!!';
     echo (json_encode($arrayMsj));
-    exit;
-}else{
-    echo "Error al intentar acceder";
+    } catch (phpmailerException $e) {
+  echo $e->errorMessage(); //Pretty error messages from PHPMailer
+} catch (Exception $e) {
+  echo $e->getMessage(); //Boring error messages from anything else!
 }
