@@ -198,14 +198,14 @@
 	height: 42px;
 	border-style: none;
 	border-color: transparent;
-	background: #DEDEDE url("../images/about-u1072-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about.png") no-repeat center center;
 	background-size: cover !important;
 }
 
 #u1072:hover
 {
 	margin: 0px;
-	background: #DEDEDE url("../images/about-u1072-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about.png") no-repeat center center;
 	background-size: cover !important;
 }
 
@@ -214,7 +214,7 @@
 	border-style: none;
 	border-color: transparent;
 	margin: 0px;
-	background: transparent url("../images/about-u1072-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about.png") no-repeat center center;
 	background-size: cover !important;
 }
 
@@ -2102,14 +2102,14 @@
 	height: 41px;
 	border-style: none;
 	border-color: transparent;
-	background: #DEDEDE url("../images/about-u469-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about-u469-fr.png") no-repeat center center;
 	background-size: cover !important;
 }
 
 #u469:hover
 {
 	margin: 0px;
-	background: #DEDEDE url("../images/about-u469-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about-u469-fr.png") no-repeat center center;
 	background-size: cover !important;
 }
 
@@ -2118,7 +2118,7 @@
 	border-style: none;
 	border-color: transparent;
 	margin: 0px;
-	background: transparent url("../images/about-u469-fr.jpg") no-repeat center center;
+	background: transparent url("../images/about-u469-fr.png") no-repeat center center;
 	background-size: cover !important;
 }
 
