@@ -13,6 +13,10 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
+    <script>
+        var dispositivo = navigator.userAgent.toLowerCase();
+if( dispositivo.search(/iphone|ipod|ipad|android/) > -1 ){document.location = 'http://m.backing.com.co';}
+    </script>
     <meta name="author" content="juan2ramos"/>
     <meta name="contact" content="juan2ramos@mi-martinez.com"/>
     <meta name="description" content=""/>
