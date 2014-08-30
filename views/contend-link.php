@@ -87,6 +87,30 @@
                 </a>
                 <a href="#"><img src="images/clientes/cli14.jpg" alt="image01">
                 </a>
+                <a href="#"><img src="images/clientes/cli15.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli16.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli17.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli18.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli19.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli20.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli21.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli22.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli23.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli24.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli25.jpg" alt="image01">
+                </a>
+                <a href="#"><img src="images/clientes/cli26.jpg" alt="image01">
+                </a>
             </div>
             <nav>
                 <span class="dg-prev">&lt;</span>
